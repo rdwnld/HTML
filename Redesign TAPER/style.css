@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    font-size: small
+}
+
+.containerSatu {
+    background: url(img/headerr.PNG) no-repeat center center;
+    background-size: cover;
+    height: 670px;
+    padding: 250px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.containerDua {
+    height: 610px;
+    padding-top: 100px;
+}
+
+.containerTiga {
+    background-color: #f8f8f8;
+}
+
+.containerEmpat {
+    height: 610px;
+    padding-top: 100px;
+}
+
+.containerLima {
+    height: 610px;
+    padding-top: 100px;
+}
+
+.containerEnam {
+    background-color: #000729;
+}
+
+.buttonS {
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.buttonSs {
+    border-radius: 40px;
+}
+
+.ps {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 50);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #ccc900;
+}
+
+.taperfoot {
+    color: #fffb00;
+}
+
+.footer {
+    background-color: #000729;
+}

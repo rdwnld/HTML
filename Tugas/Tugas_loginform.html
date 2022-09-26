@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+        body {
+            background-color: #2d2d2d
+        }
+
+        .blck {
+            background-color: #F1F1F1;
+            width: 300px;
+            height: auto;
+            margin: auto;
+            border-radius: 10px;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        span {
+            line-height: 1.6cm;
+            color: #5BB318;
+        }
+
+        label {
+            text-align: left;
+            color: #555555;
+            line-height: 1cm;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .lgf {
+            font-size: large;
+        }
+
+        .form {
+            text-align: left;
+            margin-left: 15px;
+            width: 100%;
+        }
+
+        input[type=text] {
+            margin: auto;
+            width: 90%;
+            height: 8%;
+            border-radius: 5px;
+            border: 1px solid #cacaca;
+            padding: 15px;
+            font-size: 11px;
+        }
+
+        input[type=password] {
+            margin: auto;
+            width: 90%;
+            height: 8%;
+            border-radius: 5px;
+            border: 1px solid #cacaca;
+            padding: 15px;
+            font-size: 11px;
+        }
+
+        input[type=submit] {
+            width: 90%;
+            height: 10%;
+            margin: auto;
+            background-color: #5BB318;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        input[type=submit]:hover {
+            background-color: #519c18;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="blck">
+        <div class="lgf">
+            <label><i><b>Log<span>In </span>Form</b></i></label>
+        </div>
+        <div class="form">
+            <form action="">
+                <!-- <label for="">Username</label> -->
+                <input type="text" placeholder="Username">
+                <br>
+                <!-- <label for="">Password</label> -->
+                <br>
+                <input type="password" placeholder="Password">
+                <br><br>
+                <input type="submit" value="LogIn">
+                <br><br>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

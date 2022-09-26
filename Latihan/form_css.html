@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <title>FORM</title>
+    <style>
+        input[type=text] {
+            background-color: lavender;
+            border: 1px solid #ccc;
+            color: rgb(88, 88, 88);
+            width: 200px;
+            padding: 5px;
+            border-radius: 3px;
+        }
+
+        input[type=password] {
+            background-color: lavender;
+            border: 1px solid #ccc;
+            width: 200px;
+            padding: 5px;
+            border-radius: 3px;
+        }
+
+        select {
+            background-color: #54E346;
+            width: 200px;
+            padding: 3px;
+            border-radius: 3px;
+        }
+
+        input[type=submit] {
+            background-color: #54E346;
+            width: 200px;
+            padding: 3px;
+            border-radius: 3px;
+        }
+
+        /* HOVER */
+
+        input[type=submit]:hover {
+            background-color: #0c9100;
+            cursor: pointer;
+        }
+
+        /* ~ HOVER ~ */
+    </style>
+</head>
+
+<body>
+
+    <h2>Style Form dengan CSS</h2>
+    <hr>
+    <br>
+
+    <!-- FORM -->
+
+    <form action="">
+        <td><b>Username</b></td>
+        <br>
+        <input type="text">
+        <br>
+        <td><b>Password</b></td>
+        <br>
+        <input type="password">
+        <br>
+        <td><b>Level</b></td>
+        <br>
+        <select>
+            <option type="Level" value="Admin">Admin</option>
+            <option type="Level" value="User">User</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- ~ FORM ~ -->
+
+</body>
+
+</html>
